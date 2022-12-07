@@ -19,7 +19,6 @@ public class ParseIntegers {
         StringBuilder justWords = new StringBuilder();
         Iterator<String> words = WORDS.iterator();
         int sum = 0;
-     //   String justWords = "";
         while (words.hasNext()) {
             String next = words.next();
             try {
